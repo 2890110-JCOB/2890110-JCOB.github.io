@@ -1,0 +1,43 @@
+body{
+margin: 0px;
+padding: 0px;
+
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.derecha{
+    background-color: rgb(204, 226, 190);
+    flex: 8;
+    padding: 25px;
+}
+
+.izquierda{ 
+    background-color: rgb(36, 112, 70);
+    flex: 2; 
+    padding: 25px;
+}
+
+hr{
+
+    color: black;       
+    background-color: black; 
+    height: 2px;
+    border-style: none;
+}
+
+.centrar
+{
+    text-align: center;
+}
+
+li{
+    padding-bottom: 8px;
+}
